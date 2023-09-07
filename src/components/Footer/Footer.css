@@ -1,0 +1,11 @@
+.footer {
+  background: gainsboro;
+}
+
+.footer .icon {
+  margin: 0 1rem;
+}
+
+.footer .icon i {
+  font-size: 2rem;
+}

@@ -1,0 +1,14 @@
+.profile {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile .content {
+  text-align: center;
+  width: 30rem;
+}
+
+.profile p {
+  text-align: justify;
+}

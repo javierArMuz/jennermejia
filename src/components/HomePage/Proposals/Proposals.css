@@ -1,0 +1,10 @@
+.proposals article {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.proposals .content {
+  width: 30rem;
+  text-align: justify;
+}
