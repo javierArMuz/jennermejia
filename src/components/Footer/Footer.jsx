@@ -1,10 +1,9 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import './Footer.css'
 
-const Footer = () => {
+const MyFooter = () => {
   return (
-    <div className='footer text-center'>
+    <footer className='footer text-center mt-2'>
       <Link className='icon'>
         <i className="bi bi-facebook"></i>
       </Link>
@@ -17,8 +16,8 @@ const Footer = () => {
       <Link className='icon'>
         <i className="bi bi-youtube"></i>
       </Link>
-    </div>
+    </footer>
   )
 }
 
-export default Footer
+export default MyFooter

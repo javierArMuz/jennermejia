@@ -1,0 +1,45 @@
+.proposals .cards {
+  display: grid;
+  gap: 10px;
+
+  .card {
+    border: unset;
+    background-color: unset;
+
+    .titleImg {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .card-title {
+        text-align: center;
+      }
+    }
+
+    .image {
+      width: 6rem;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 5px;
+    }
+  }
+}
+
+@media (width>575px) {
+  .proposals .card {
+    display: flex;
+    flex-direction: row;
+    /* margin-right: 10px; */
+  }
+}
+
+@media (width>1000px) {
+  .proposals .cards {
+    grid-template-columns: repeat(2, 1fr);
+
+    .card .image {
+      margin: unset;
+    }
+  }
+}

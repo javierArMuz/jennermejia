@@ -1,0 +1,32 @@
+.profile {
+  /* justify-content: center; */
+
+  .about {
+    background: var(--backgroundYellow);
+    width: 99%;
+
+    .card {
+      padding-top: .5rem;
+      background-color: transparent;
+      border: unset;
+
+      .image {
+        width: 5rem;
+        overflow: hidden;
+        border-radius: 50%;
+        margin: auto;
+      }
+
+      .started-number {
+        cursor: default;
+        position: absolute;
+        line-height: 0;
+        font-size: 200px;
+        opacity: .03;
+        font-variant-numeric: lining-nums;
+        top: 8%;
+        left: 43px;
+      }
+    }
+  }
+}

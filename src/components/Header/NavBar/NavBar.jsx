@@ -1,9 +1,9 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import { NavLink } from 'react-router-dom'
 import './NavBar.css'
 
 
-const Header = () => {
+const NavBar = () => {
   const navBarRef = useRef();
   const navBarTogglerRef = useRef();
 
@@ -13,7 +13,7 @@ const Header = () => {
   }
 
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary" >
       <div className="container-fluid d-flex flex-lg-row-reverse">
         <button ref={navBarTogglerRef} className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-expanded="false" aria-controls="navbarNav" aria-label="Toggle navigation">
@@ -25,10 +25,19 @@ const Header = () => {
         <div ref={navBarRef} className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <NavLink to='/option/one' onClick={hideNavBar} className="nav-link">Opción Uno</NavLink>
+              <NavLink to='/inicio' onClick={hideNavBar} className="nav-link">Inicio</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to='/option/two' onClick={hideNavBar} className="nav-link">Opción Dos</NavLink>
+              <NavLink to='/profile' onClick={hideNavBar} className="nav-link">Trayectoria</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to='/proposals' onClick={hideNavBar} className="nav-link">Mi Plan de Gobierno</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to='/blog' onClick={hideNavBar} className="nav-link">Blog</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to='/contact' onClick={hideNavBar} className="nav-link">Contacto</NavLink>
             </li>
             {/* {linkProds.map((prod, i) => (
                 <li className="nav-item" key={i}>
@@ -42,4 +51,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default NavBar

@@ -1,21 +1,28 @@
 import './App.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import OptionOne from './components/OptionOne/OptionOne'
-import HomePage from './components/HomePage/HomePage'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
+import { BrowserRouter } from 'react-router-dom'
+import MyFooter from './components/Footer/Footer'
+import MyRouter from './components/Router/MyRouter'
+import TitleImg from './components/Header/TitleImg/TitleImg';
+import NavBar from './components/Header/NavBar/NavBar';
+
+// Librería de animación AOS
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  // Inicializamos AOS
+  AOS.init({
+    easing: 'ease-out-sine',
+    duration: 600
+  });
 
   return (
     <div className='App'>
       <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/option/one' element={<OptionOne />} />
-        </Routes>
-        <Footer />
+        <TitleImg />
+        <NavBar />
+        <MyRouter />
+        <MyFooter />
       </BrowserRouter>
     </div>
   )

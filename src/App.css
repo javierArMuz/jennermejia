@@ -1,5 +1,19 @@
+:root {
+  --color: #293a01;
+  --backgroundApp: #dadada;
+  --backgroundYellow: #ffd71d;
+}
+
+
+* {
+  color: var(--color);
+}
+
 .App {
   min-width: 285px;
+  box-sizing: border-box;
+  background: #f3f2f2;
+  /* background: var(--background); */
 }
 
 a {
@@ -7,12 +21,7 @@ a {
 }
 
 img {
-  /* object-fit: contain; */
+  object-fit: cover;
   width: 100%;
   height: 100%;
-}
-
-.image {
-  width: 20rem;
-  height: 20rem;
 }

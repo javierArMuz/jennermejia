@@ -1,0 +1,7 @@
+.defray {
+  .icon {
+    width: 10rem;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+}

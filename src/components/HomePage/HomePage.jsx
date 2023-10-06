@@ -1,14 +1,16 @@
-import React from 'react'
-import AutoCarousel from './AutoCarousel/AutoCarousel'
-import Profile from './Profile/Profile'
-import Proposals from './Proposals/Proposals'
+import Profile from './HomeProfile/Profile'
+import Proposals from './HomeProposals/Proposals'
+import Defray from './HomeDefray/Defray'
+import './HomePages.css'
 
 const HomePage = () => {
   return (
     <>
-      <AutoCarousel />
-      <Profile />
-      <Proposals />
+      <main className='container-fluid'>
+        <Profile />
+        <Defray />
+        <Proposals />
+      </main>
     </>
   )
 }
