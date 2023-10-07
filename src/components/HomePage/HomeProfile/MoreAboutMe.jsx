@@ -1,6 +1,6 @@
 const MoreAboutMe = () => {
   return (
-    <div className="moreaboutme mt-4">
+    <div className="moreaboutme row">
       <h2 className="text-center py-3">Más Sobre Mi</h2>
       <div className="images row justify-content-center gap-3">
         <div className="image col-sm-5">

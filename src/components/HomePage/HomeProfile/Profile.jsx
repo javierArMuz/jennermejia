@@ -3,8 +3,8 @@ import './Profile.css'
 
 const Profile = () => {
   return (
-    <section className=' profile row my-5' >
-      <div className="about">
+    <section className=' profile my-5' >
+      <div className="about row">
         <h2 className='text-center my-5 py-3'>¿Quién es Jenner Mejía</h2>
         <div className="cards row my-3 g-3">
           <article className='card col-md-6 col-lg-4 position-relative' data-aos='fade-up' data-aos-delay='150'>

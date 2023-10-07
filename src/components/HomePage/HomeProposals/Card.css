@@ -1,6 +1,6 @@
 .proposals .cards {
   display: grid;
-  gap: 10px;
+  gap: 20px;
 
   .card {
     border: unset;
@@ -14,32 +14,26 @@
 
       .card-title {
         text-align: center;
+        font-size: 1.2rem;
       }
     }
 
     .image {
-      width: 6rem;
+      width: 4rem;
       border-radius: 50%;
       overflow: hidden;
-      margin: 5px;
     }
   }
 }
 
 @media (width>575px) {
-  .proposals .card {
-    display: flex;
-    flex-direction: row;
-    /* margin-right: 10px; */
+  .proposals .cards {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (width>1000px) {
   .proposals .cards {
-    grid-template-columns: repeat(2, 1fr);
-
-    .card .image {
-      margin: unset;
-    }
+    grid-template-columns: repeat(3, 1fr);
   }
 }

@@ -1,9 +1,6 @@
 .profile {
-  /* justify-content: center; */
-
   .about {
     background: var(--backgroundYellow);
-    width: 99%;
 
     .card {
       padding-top: .5rem;
@@ -28,5 +25,10 @@
         left: 43px;
       }
     }
+  }
+
+  .moreaboutme {
+    background-color: white;
+    padding: 4rem 0;
   }
 }
