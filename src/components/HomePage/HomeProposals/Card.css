@@ -4,7 +4,8 @@
 
   .card {
     border: unset;
-    background-color: unset;
+    background-color: #fcfcfc;
+    padding-top: 1.5rem;
 
     .titleImg {
       display: flex;

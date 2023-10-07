@@ -1,8 +1,10 @@
 /* Barra de munú */
 .navbar {
+  background: var(--color);
   position: sticky;
   top: 0;
   z-index: 10;
+  padding: .6rem 0;
 }
 
 .collapse .navbar-nav {
@@ -28,7 +30,7 @@
   position: absolute;
   height: 4px;
   width: 100%;
-  background: black;
+  background: var(--backgroundYellow);
   border-radius: 3px;
   opacity: 1;
   left: 0;
@@ -79,7 +81,7 @@
   position: relative;
 
   & a.nav-link {
-    color: var(--color);
+    color: var(--backgroundYellow);
     font-size: 1.3rem;
   }
 }

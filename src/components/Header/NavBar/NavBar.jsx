@@ -13,7 +13,7 @@ const NavBar = () => {
   }
 
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary" >
+    <nav className="navbar navbar-expand-lg" >
       <div className="container-fluid d-flex flex-lg-row-reverse">
         <button ref={navBarTogglerRef} className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-expanded="false" aria-controls="navbarNav" aria-label="Toggle navigation">
