@@ -1,4 +1,4 @@
-import MoreAboutMe from "./Moreaboutme"
+import MoreAboutMe from "./MoreAboutMe"
 import './Profile.css'
 
 const Profile = () => {
