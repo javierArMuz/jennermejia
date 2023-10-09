@@ -13,7 +13,7 @@ const Proposals = () => {
 
   return (
     <section className='proposals bg-white'>
-      <h2 className='text-center p-3' data-aos="flip-left">Conoce nuestro plan de gobierno</h2>
+      <h2 className='text-center p-3' data-aos="flip-left">Conoce Nuestro Plan De Gobierno</h2>
       <p className="text-center"><i>Para más información descargalo aquí</i></p>
       <div className="cards">
         {data.map((info, index) => (
