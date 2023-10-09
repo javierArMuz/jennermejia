@@ -1,0 +1,14 @@
+.interaction {
+  display: grid;
+
+  .card {
+    border: unset;
+    background-color: #fcfcfc;
+    padding-top: 1.5rem;
+  }
+
+  @media (width>500px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
