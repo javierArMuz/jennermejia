@@ -1,12 +1,14 @@
 import PropTypes from 'prop-types'
 
 const Card = ({ info }) => {
+  const images = './images/logosProposals'
+
   return (
     <>
       <article className='card' data-aos="fade-up">
         <div className="titleImg">
           <div className="image">
-            <img src={info.image} className='card-img' alt={info.title} />
+            <img src={`${images}${info.image}.png`} className='card-img' alt={info.title} />
           </div>
           <h4 className='card-title'>{info.title}</h4>
         </div>
