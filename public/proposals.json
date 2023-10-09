@@ -1,67 +1,67 @@
 [
   {
     "title": "Educación",
-    "image": "/images/logosProposals/educ.png",
+    "image": "./images/logosProposals/educ.png",
     "content": "Promoveremos la certificación de la educación, el bilingüismo y el acceso a la tecnología, la mejora de la infraestructura física de las IE, elevaremos la calidad de la educación, ampliaremos la cobertura del PAE y convertiremos a Sabanalarga en centro de referencia universitaria"
   },
   {
     "title": "Salud",
-    "image": "/images/logosProposals/salud.png",
+    "image": "./images/logosProposals/salud.png",
     "content": "No venderemos la salud, vamos a fortalecer la red de primer nivel, gestionaremos la revisión de la nueva estructura del hospital departametal. haremos una auditoría eficaz a las EPS-S y a las IPS, promocionaremos los estilos de vida saludable y fortaleceremos la secretaría de salud municipal."
   },
   {
     "title": "Cultura",
-    "image": "/images/logosProposals/cultura.png",
+    "image": "./images/logosProposals/cultura.png",
     "content": "Apoyaremos  las  celebraciones  y  manifestaciones  culturales  del  Municipio, fortaleceremos  el día  de  la sabanalargueridad , ampliaremos los recursos para financiación del sector cultural, promoveremos la capacitación de los gestores culturales y promoveremos la inclusión en el sector de las artes."
   },
   {
     "title": "Deporte",
-    "image": "/images/logosProposals/deporte.png",
+    "image": "./images/logosProposals/deporte.png",
     "content": "Mejoraremos la infraestructura deportiva del Municipio, fortaleceremos las escuelas de formación deportiva y el portafolio de estimulos del Municipio, capacitaremos a los gestores deportivos, gestionaremos la titulación de la cancha del CDV."
   },
   {
     "title": "Juventud",
-    "image": "/images/logosProposals/juventud.png",
+    "image": "./images/logosProposals/juventud.png",
     "content": "Promoveremos políticas públicas de juventud con enfoque diferecial, apoyaremos las asoc1ac1ones deportivas, culturales y sociales juveniles , promoveremos el estatuto de ciudadania juvenil, apoyaremos las ferias de emprendimiento juvenil  y fortaleceremos  los mecanismos de participación juvenil."
   },
   {
     "title": "Inclusión Social",
-    "image": "/images/logosProposals/inclusion.png",
+    "image": "./images/logosProposals/inclusion.png",
     "content": "Destinaremos el 30% de los recursos del presupuesto a los corregimietos, implemetaremos una estrategia para identificar. organizar y dignificar el trabajo de los mototaxistas, garantizaremos los derechos de la población damnificada o en situación de desplazamiento y brindaremos protección especial al adulto mayor."
   },
   {
     "title": "Vivienda",
-    "image": "/images/logosProposals/vivienda.png",
+    "image": "./images/logosProposals/vivienda.png",
     "content": "Gestionaremos subsidios para vienda nueva. usada y mejoramiento junto a un inventario de carencia en las viviedas de la zona rural y urbana, desarrollaremos estrategias para la titulación de predios y formularemos proyectos de vivienda a la población desplazada y víctima del conflicto armado."
   },
   {
     "title": "Desarrollo Rural",
-    "image": "/images/logosProposals/desarrollo.png",
+    "image": "./images/logosProposals/desarrollo.png",
     "content": "Gestionareos asistencia técnica para los pequeños productores, apoyaremos a nuestros pescadores y desplegaremos acciones que permitan tecnificar sus labores, fortaleceremos el Consejo Municipal de Desarrollo rural y crearemos jornada  de capacitación para el desarrollo de la agroindustria  en el Municipio."
   },
   {
     "title": "Empleo",
-    "image": "/images/logosProposals/empleo.png",
+    "image": "./images/logosProposals/empleo.png",
     "content": "Desarrollaremos acciones que aputen a la generación de empleo digno, apoyaremos a los vendedores ambulantes para consolidarlos como empresas asociativas, contrataremos a través de convenios obras de interés comunitarios con las JAC y crearemos e institucionalizaremos la feria exposabanalarga."
   },
   {
     "title": "Medio Ambiente",
-    "image": "/images/logosProposals/ambiente.png",
+    "image": "./images/logosProposals/ambiente.png",
     "content": "Implementaremos proyectos y programas de reforestación, protección de la zonas verdes y cuerpos de agua, gestionaremos con la CRA y el Ministerio de medio ambiente un proyecto para la recuperación ambiental y el fomento del ecoturismo en la laguna del guajaro y lideraremos una revisión del POT del Municipio"
   },
   {
     "title": "Infraestructura",
-    "image": "/images/logosProposals/infra.png",
+    "image": "./images/logosProposals/infra.png",
     "content": "Mejoraremos, ampliaremos y mantendremos la malla vial urbana y rural del Municipio, crearemos el programa 'unidos por nuestro barrio' gestionaremos ante el departamento y la nación proyectos de adecuación de vias urbanas, terciarias y veredales."
   },
   {
     "title": "Servicios Públicos",
-    "image": "/images/logosProposals/servicio.png",
+    "image": "./images/logosProposals/servicio.png",
     "content": "Realizaremos revisión en los contratos de concesión suscritos para la prestación de los servicios públicos de agua. aseo, alcantarillado, alumbrado público y gestión predial para evitar los abusos. atropellos y las altas tarifas, optimizaremos la infraestructura de servicios públicos para generar inversión, empresas e industrias."
   },
   {
     "title": "Convivencia, Seguridad y Buen Gobierno",
-    "image": "/images/logosProposals/convivencia.png",
+    "image": "./images/logosProposals/convivencia.png",
     "content": "Fortaleceremos la operatividad de las cámaras de seguridad en alianza con la sociedad civil para promocionar pactos ciudadanos y frentes de seguridad, implementaremos el  programa  despacho  para todos, realizaremos Consejos Comunitarios y fortaleceremos a las Juntas de Acción Comunal."
   }
 ]
