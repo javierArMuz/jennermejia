@@ -11,7 +11,7 @@ Currently, two official plugins are available:
 
 Página Web de Jenner Mejía.
 
-En esta página web concontrarás todo lo relacionado con la campaña del candidato a la alcandia Jenner Mejía
+En esta página web encontrarás todo lo relacionado con la campaña del candidato a la alcandía Jenner Mejía
 
 - Su pefíl
 - Sus propuestas
