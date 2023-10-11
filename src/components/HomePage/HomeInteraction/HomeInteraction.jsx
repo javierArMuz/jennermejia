@@ -15,7 +15,7 @@ const HomeInteraction = () => {
 
   return (
     <div className="interaction py-5" id="blog">
-      <h2 className="text-center py-5">Diálogos Con La Comunidad</h2>
+      <h2 className="text-center py-5" data-aos="flip-left">Diálogos Con La Comunidad</h2>
       <div className="cards">
         {data.map((info, index) => (
           <Link key={index}>

@@ -14,17 +14,10 @@ const ButtonUp = () => {
     }
   }
 
-  const scrollToTop = () => {
-    window.scrollTo({
-      behavior: 'smooth',
-      top: 0
-    })
-  }
-
   window.addEventListener('scroll', toggleVisible)
 
   return (
-    <div className={`btn-up ${visible ? 'btn-show' : 'btn-hide'}`} onClick={() => scrollToTop()}>
+    <div className={`btn-up ${visible ? 'btn-show' : 'btn-hide'}`} onClick={() => window.scrollTo({ top: 0 })}>
       <i className="bi bi-arrow-up"></i>
     </div>
   )

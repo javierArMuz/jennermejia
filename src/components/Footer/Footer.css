@@ -8,4 +8,9 @@
 
 .footer .icon i {
   font-size: 2rem;
+  color: var(--color);
+
+  &:hover {
+    opacity: .89;
+  }
 }

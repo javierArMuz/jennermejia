@@ -6,9 +6,31 @@ const NavBar = () => {
   const navBarRef = useRef();
   const navBarTogglerRef = useRef();
 
-  const hideNavBar = () => {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const id = entry.target.getAttribute('id')
+      const menuLink = document.querySelector(`.navbar-nav a[href='#${id}']`)
+
+      if (entry.isIntersecting) {
+        // document.querySelector('.navbar-nav a.active').classList.remove('active');
+        menuLink.classList.add('active')
+      }
+      else {
+        menuLink.classList.remove('active')
+      }
+    });
+  }, { rootMargin: "-50% 0px -15% 0px" })
+
+
+  const hideNavBar = (e) => {
     navBarRef.current.classList.remove('show');
     navBarTogglerRef.current.classList.add('collapsed');
+
+    const hash = e.target.getAttribute('href');
+    const target = document.querySelector(hash);
+    if (target) {
+      observer.observe(target)
+    }
   }
 
   return (
@@ -24,19 +46,19 @@ const NavBar = () => {
         <div ref={navBarRef} className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a href='#inicio' onClick={hideNavBar} className="nav-link">Inicio</a>
+              <a href='#inicio' onClick={(e) => hideNavBar(e)} className="nav-link">Inicio</a>
             </li>
             <li className="nav-item">
-              <a href='#profile' onClick={hideNavBar} className="nav-link">Trayectoria</a>
+              <a href='#profile' onClick={(e) => hideNavBar(e)} className="nav-link">Trayectoria</a>
             </li>
             <li className="nav-item">
-              <a href='#proposals' onClick={hideNavBar} className="nav-link">Mi Plan de Gobierno</a>
+              <a href='#proposals' onClick={(e) => hideNavBar(e)} className="nav-link">Mi Plan de Gobierno</a>
             </li>
             <li className="nav-item">
-              <a href='#blog' onClick={hideNavBar} className="nav-link">Blog</a>
+              <a href='#blog' onClick={(e) => hideNavBar(e)} className="nav-link">Blog</a>
             </li>
             <li className="nav-item">
-              <a href='#contact' onClick={hideNavBar} className="nav-link">Contacto</a>
+              <a href='#contact' onClick={(e) => hideNavBar(e)} className="nav-link">Contacto</a>
             </li>
           </ul>
         </div>
