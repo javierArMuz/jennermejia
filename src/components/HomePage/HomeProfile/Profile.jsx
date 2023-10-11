@@ -3,9 +3,9 @@ import './Profile.css'
 
 const Profile = () => {
   return (
-    <section className=' profile my-5' >
-      <div className="about row">
-        <h1 className='text-center my-5 py-3'>¿Quién es Jenner Mejía</h1>
+    <section className=' profile py-5' id="profile">
+      <div className="about">
+        <h1 className='text-center py-5'>¿Quién es Jenner Mejía</h1>
         <div className="cards row my-3 g-3">
           <article className='card col-md-6 col-lg-4 position-relative' data-aos='fade-up' data-aos-delay='150'>
             <div className="started-number">1</div>

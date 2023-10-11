@@ -1,5 +1,3 @@
-import './Defray.css'
-
 const Defray = () => {
   return (
     <article className="defray my-5">

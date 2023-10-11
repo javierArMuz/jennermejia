@@ -8,6 +8,7 @@ import NavBar from './components/Header/NavBar/NavBar';
 // Librería de animación AOS
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ButtonUp from './components/ButtonUp/ButtonUp';
 
 function App() {
   // Inicializamos AOS
@@ -23,6 +24,7 @@ function App() {
         <NavBar />
         <MyRouter />
         <MyFooter />
+        <ButtonUp />
       </BrowserRouter>
     </div>
   )

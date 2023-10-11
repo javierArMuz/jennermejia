@@ -1,5 +1,4 @@
 import { useRef } from 'react'
-import { NavLink } from 'react-router-dom'
 import './NavBar.css'
 
 
@@ -25,25 +24,20 @@ const NavBar = () => {
         <div ref={navBarRef} className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <NavLink to='/inicio' onClick={hideNavBar} className="nav-link">Inicio</NavLink>
+              <a href='#inicio' onClick={hideNavBar} className="nav-link">Inicio</a>
             </li>
             <li className="nav-item">
-              <NavLink to='/profile' onClick={hideNavBar} className="nav-link">Trayectoria</NavLink>
+              <a href='#profile' onClick={hideNavBar} className="nav-link">Trayectoria</a>
             </li>
             <li className="nav-item">
-              <NavLink to='/proposals' onClick={hideNavBar} className="nav-link">Mi Plan de Gobierno</NavLink>
+              <a href='#proposals' onClick={hideNavBar} className="nav-link">Mi Plan de Gobierno</a>
             </li>
             <li className="nav-item">
-              <NavLink to='/blog' onClick={hideNavBar} className="nav-link">Blog</NavLink>
+              <a href='#blog' onClick={hideNavBar} className="nav-link">Blog</a>
             </li>
             <li className="nav-item">
-              <NavLink to='/contact' onClick={hideNavBar} className="nav-link">Contacto</NavLink>
+              <a href='#contact' onClick={hideNavBar} className="nav-link">Contacto</a>
             </li>
-            {/* {linkProds.map((prod, i) => (
-                <li className="nav-item" key={i}>
-                  <NavLink to={`/category/${prod}`} onClick={hideNavBar} className="nav-link">{prod}</NavLink>
-                </li>
-              ))} */}
           </ul>
         </div>
       </div>

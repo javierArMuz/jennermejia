@@ -4,9 +4,12 @@
   --backgroundYellow: #ffd71d;
 }
 
-
 * {
   color: var(--color);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .App {
@@ -23,6 +26,16 @@ img {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.icon {
+  width: 8rem;
+  overflow: hidden;
+  border-radius: 50%;
+
+  @media (width>575px) {
+    width: 10rem;
+  }
 }
 
 h1,

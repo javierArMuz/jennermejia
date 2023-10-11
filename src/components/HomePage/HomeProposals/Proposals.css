@@ -1,0 +1,12 @@
+.proposals {
+  .btn-green {
+    border: 2px solid var(--color);
+    color: var(--color);
+    margin: auto;
+
+    &:hover {
+      background-color: var(--color);
+      color: var(--backgroundYellow);
+    }
+  }
+}

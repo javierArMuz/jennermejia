@@ -4,7 +4,7 @@ import './TitleImg.css'
 
 const TitleImg = () => {
   return (
-    <section className="titleImg shadow">
+    <section className="titleImg shadow" id='inicio'>
       <div className="image w-100">
         <img className="w-100 h-100" data-aos="fade-down"
           src="images/header-jm.png"

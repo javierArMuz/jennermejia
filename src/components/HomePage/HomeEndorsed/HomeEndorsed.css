@@ -1,18 +1,10 @@
 .endorsed {
   background: var(--color);
 
-  .image {
-    width: 16rem;
-    margin: auto;
-  }
-
   .content {
     color: var(--backgroundYellow);
-  }
-
-  @media (width>600px) {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: center;
   }
 }

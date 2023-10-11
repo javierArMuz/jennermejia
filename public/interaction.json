@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Educación",
+    "image": "/educ",
+    "content": "Promoveremos la certificación de la educación, el bilingüismo y el acceso a la tecnología, la mejora de la infraestructura física de las IE, elevaremos la calidad de la educación, ampliaremos la cobertura del PAE y convertiremos a Sabanalarga en centro de referencia universitaria"
+  },
+  {
+    "title": "Salud",
+    "image": "/salud",
+    "content": "No venderemos la salud, vamos a fortalecer la red de primer nivel, gestionaremos la revisión de la nueva estructura del hospital departametal. haremos una auditoría eficaz a las EPS-S y a las IPS, promocionaremos los estilos de vida saludable y fortaleceremos la secretaría de salud municipal."
+  },
+  {
+    "title": "Cultura",
+    "image": "/cultura",
+    "content": "Apoyaremos  las  celebraciones  y  manifestaciones  culturales  del  Municipio, fortaleceremos  el día  de  la sabanalargueridad , ampliaremos los recursos para financiación del sector cultural, promoveremos la capacitación de los gestores culturales y promoveremos la inclusión en el sector de las artes."
+  },
+  {
+    "title": "Deporte",
+    "image": "/deporte",
+    "content": "Mejoraremos la infraestructura deportiva del Municipio, fortaleceremos las escuelas de formación deportiva y el portafolio de estimulos del Municipio, capacitaremos a los gestores deportivos, gestionaremos la titulación de la cancha del CDV."
+  }
+]
