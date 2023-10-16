@@ -11,8 +11,6 @@ const MoreAboutMe = () => {
       .then(resp => setData(resp))
   }, [])
 
-  console.log(data);
-
   return (
     <div className="moreaboutme row">
       <h2 className="text-center pb-5">Más Sobre Mi</h2>
