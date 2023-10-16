@@ -31,5 +31,9 @@
   .moreaboutme {
     background-color: var(--backgroundYellow);
     padding: 4rem 0;
+
+    .cardsLink {
+      grid-template-columns: repeat(auto-fit, minmax(220px, 400px));
+    }
   }
 }

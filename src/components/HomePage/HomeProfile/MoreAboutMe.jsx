@@ -1,14 +1,27 @@
+import { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
+import Card from "../HomeProposals/Card"
+
 const MoreAboutMe = () => {
+  const [data, setData] = useState([])
+
+  useEffect(() => {
+    fetch('/moreaboutme.json')
+      .then(response => response.json())
+      .then(resp => setData(resp))
+  }, [])
+
+  console.log(data);
+
   return (
     <div className="moreaboutme row">
       <h2 className="text-center pb-5">Más Sobre Mi</h2>
-      <div className="images row justify-content-center gap-3">
-        <div className="image col-sm-5">
-          <img src="./images/header-jm.png" alt="" />
-        </div>
-        <div className="image col-sm-5">
-          <img src="./images/header-jm.png" alt="" />
-        </div>
+      <div className="cardsLink">
+        {data.map((info, index) => (
+          <Link to={info.link} key={index} target="_blank">
+            <Card {...info} add='VER MÁS' />
+          </Link>
+        ))}
       </div>
     </div>
   )

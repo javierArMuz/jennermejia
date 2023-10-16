@@ -1,0 +1,8 @@
+.titleImg {
+  @media (width>1200px) {
+    .image img {
+      height: 100vh;
+      object-fit: fill;
+    }
+  }
+}

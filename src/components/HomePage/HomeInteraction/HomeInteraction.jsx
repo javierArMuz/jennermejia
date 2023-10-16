@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
-import Card from "../HomeProposals/Card"
 import { useEffect, useState } from "react"
-import './HomeInteraction.css'
+import Card from "../HomeProposals/Card"
 
 const HomeInteraction = () => {
 
@@ -16,13 +15,12 @@ const HomeInteraction = () => {
   return (
     <div className="interaction py-5" id="blog">
       <h2 className="text-center py-5" data-aos="flip-left">Diálogos Con La Comunidad</h2>
-      <div className="cards">
+      <div className="cardsLink">
         {data.map((info, index) => (
-          <Link key={index}>
-            <Card {...info} />
+          <Link to={info.link} key={index} target="_blank">
+            <Card {...info} add='VER MÁS' />
           </Link>
         ))}
-
       </div>
     </div>
   )
