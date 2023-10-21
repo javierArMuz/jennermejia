@@ -20,7 +20,7 @@ const Proposals = () => {
           <Card key={index} {...info} />
         ))}
         <button className="btn btn-green">
-          <a href="./webpagejenner/propuestas.pdf" target="_blank" className="h4">Descargalo aquí</a>
+          <a href="./propuestas.pdf" target="_blank" className="h4">Descargalo aquí</a>
         </button>
       </div>
     </section>
