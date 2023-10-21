@@ -14,12 +14,14 @@ const Proposals = () => {
 
   return (
     <section className='proposals bg-white py-5' id="proposals">
-      <h2 className='text-center py-5' data-aos="flip-left">Conoce Nuestro Plan De Gobierno</h2>
+      <h2 className='text-center py-5' data-aos="flip-left">Conoce Nuestro Programa De Gobierno</h2>
       <div className="cards">
         {data.map((info, index) => (
           <Card key={index} {...info} />
         ))}
-        <button className="btn btn-green"><span className="h4">Descargalo aquí</span></button>
+        <button className="btn btn-green">
+          <a href="./webpagejenner/propuestas.pdf" target="_blank" className="h4">Descargalo aquí</a>
+        </button>
       </div>
     </section>
   )

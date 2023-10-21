@@ -16,7 +16,7 @@ const MoreAboutMe = () => {
       <h2 className="text-center pb-5">Más Sobre Mi</h2>
       <div className="cardsLink">
         {data.map((info, index) => (
-          <Link to={info.link} key={index} target="_blank">
+          <Link to={info.link} key={index} target="_blank" rel="noreferrer">
             <Card {...info} add='VER MÁS' />
           </Link>
         ))}

@@ -17,7 +17,7 @@ const HomeInteraction = () => {
       <h2 className="text-center py-5" data-aos="flip-left">Diálogos Con La Comunidad</h2>
       <div className="cardsLink">
         {data.map((info, index) => (
-          <Link to={info.link} key={index} target="_blank">
+          <Link to={info.link} key={index} target="_blank" rel="noreferrer">
             <Card {...info} add='VER MÁS' />
           </Link>
         ))}
