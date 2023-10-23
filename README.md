@@ -15,5 +15,5 @@ En esta página web encontrarás todo lo relacionado con la campaña del candida
 
 - Su pefíl
 - Sus propuestas
-- Su contacto
+- Su interacción con la comunidad
 - Sus redes sociales
