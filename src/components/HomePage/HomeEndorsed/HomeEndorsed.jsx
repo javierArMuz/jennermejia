@@ -5,7 +5,7 @@ const HomeEndorsed = () => {
     <section className="endorsed py-5 my-5 row">
       <div className='col-sm-5'>
         <div className="icon m-auto">
-          <img src="./images/logosabanalarganosune.png" alt="Sabanalarga nos une" />
+          <img src="/jennermejia.com/images/logosabanalarganosune.png" alt="Logo Sabanalarga nos une" />
         </div>
       </div>
       <div className='content col-sm-7'>

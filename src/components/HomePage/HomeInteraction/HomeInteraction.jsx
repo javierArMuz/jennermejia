@@ -7,7 +7,7 @@ const HomeInteraction = () => {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    fetch('./interaction.json')
+    fetch('/jennermejia.com/interaction.json')
       .then(response => response.json())
       .then(resp => setData(resp))
   }, [])

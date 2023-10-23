@@ -5,7 +5,7 @@ const TitleImg = () => {
     <section className="titleImg" id='inicio'>
       <div className="image">
         <img data-aos="fade-down"
-          src="images/header-jm.png"
+          src="/jennermejia.com/images/header-jm.png"
           alt="Jenner Mejía" />
       </div>
     </section>
