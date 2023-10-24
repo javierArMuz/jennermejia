@@ -7,7 +7,7 @@ const Proposals = () => {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    fetch('/jennermejia.com/proposals.json')
+    fetch('/proposals.json')
       .then(response => response.json())
       .then(datos => setData(datos))
   }, [])
@@ -20,7 +20,7 @@ const Proposals = () => {
           <Card key={index} {...info} />
         ))}
         <button className="btn btn-green">
-          <a href="/jennermejia.com/propuestas.pdf" target="_blank" className="h4">Descargalo aquí</a>
+          <a href="/propuestas.pdf" target="_blank" className="h4">Descargalo aquí</a>
         </button>
       </div>
     </section>

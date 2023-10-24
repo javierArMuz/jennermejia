@@ -6,7 +6,7 @@ const MoreAboutMe = () => {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    fetch('/jennermejia.com/moreaboutme.json')
+    fetch('/moreaboutme.json')
       .then(response => response.json())
       .then(resp => setData(resp))
   }, [])

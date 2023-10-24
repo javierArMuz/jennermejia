@@ -1,0 +1,15 @@
+@media (width<576px) {
+  .defray .left {
+    margin-bottom: 40px;
+  }
+}
+
+@media (width>1000px) {
+  .defray .right {
+    height: 590px;
+
+    & video {
+      height: 100%;
+    }
+  }
+}

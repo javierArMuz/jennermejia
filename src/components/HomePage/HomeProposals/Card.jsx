@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 
 const Card = ({ title, image, content, add }) => {
-  const images = '/jennermejia.com/images/'
+  const images = '/images/'
 
   return (
     <>

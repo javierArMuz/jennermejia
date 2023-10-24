@@ -34,6 +34,16 @@
 
     .cardsLink {
       grid-template-columns: repeat(auto-fit, minmax(220px, 400px));
+
+      @media (width>380px) {
+        .card .image {
+          height: 490px;
+
+          & img {
+            object-fit: fill;
+          }
+        }
+      }
     }
   }
 }

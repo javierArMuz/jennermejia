@@ -1,5 +1,5 @@
 import MoreAboutMe from "./MoreAboutMe"
-import './Profile.css'
+import './ProfileMore.css'
 
 const Profile = () => {
   return (
@@ -9,9 +9,6 @@ const Profile = () => {
         <div className="cards row my-3 g-3">
           <article className='card col-md-6 col-lg-4 position-relative' data-aos='fade-up' data-aos-delay='150'>
             <div className="started-number">1</div>
-            <div className="image">
-              <img src="https://ih1.redbubble.net/image.1338567365.1658/st,small,507x507-pad,600x600,f8f8f8.jpg" className='card-img' alt="" />
-            </div>
             <div className="card-body">
               <h3 className='card-title text-center'>Preparación</h3>
               <p className='card-text' style={{ textAlign: 'center' }}>Apasionados de la formación académica, como pilar fundamental en el desarrollo personal y profesional, nos hemos esforzado en prepararnos PARA ADMINISTRAR. <br /><br />
@@ -31,9 +28,6 @@ const Profile = () => {
           </article>
           <article className='card col-md-6 col-lg-4 position-relative' data-aos="fade-up" data-aos-delay='300'>
             <div className="started-number">2</div>
-            <div className="image">
-              <img src="https://ih1.redbubble.net/image.1338567365.1658/st,small,507x507-pad,600x600,f8f8f8.jpg" className='card-img' alt="" />
-            </div>
             <div className="card-body">
               <h3 className='card-title text-center'>Experiencia</h3>
               <p className='card-text' style={{ textAlign: 'center' }}>
@@ -47,9 +41,6 @@ const Profile = () => {
           </article>
           <article className='card col-md-12 col-lg-4 position-relative' data-aos="fade-up" data-aos-delay='450'>
             <div className="started-number">3</div>
-            <div className="image">
-              <img src="https://ih1.redbubble.net/image.1338567365.1658/st,small,507x507-pad,600x600,f8f8f8.jpg" className='card-img' alt="" />
-            </div>
             <div className="card-body">
               <h3 className='card-title text-center'>Servicio</h3>
               <p className='card-text' style={{ textAlign: 'center' }}>
