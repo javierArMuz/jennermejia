@@ -40,7 +40,7 @@
           height: 490px;
 
           & img {
-            object-fit: fill;
+            object-fit: contain;
           }
         }
       }
