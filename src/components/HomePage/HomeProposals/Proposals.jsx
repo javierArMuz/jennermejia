@@ -20,7 +20,7 @@ const Proposals = () => {
           <Card key={index} {...info} />
         ))}
         <button className="btn btn-green">
-          <a href="/propuestas.pdf" target="_blank" className="h4">Descargalo aquí</a>
+          <a href="/programa_de_gobierno.pdf" target="_blank" className="h4">Descargalo aquí</a>
         </button>
       </div>
     </section>
