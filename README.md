@@ -18,6 +18,6 @@ En esta página web encontrarás todo lo relacionado con la campaña del candida
 - Su interacción con la comunidad
 - Sus redes sociales
 
-## Enlace
+## Dominio
 
 - [jennermejia.com](https://jennermejia.com)
