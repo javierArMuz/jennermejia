@@ -17,3 +17,7 @@ En esta página web encontrarás todo lo relacionado con la campaña del candida
 - Sus propuestas
 - Su interacción con la comunidad
 - Sus redes sociales
+
+## Enlace
+
+- [jennermejia.com](https://jennermejia.com) uses [SWC](https://swc.rs/) for Fast Refresh
