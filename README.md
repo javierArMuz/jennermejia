@@ -20,4 +20,4 @@ En esta página web encontrarás todo lo relacionado con la campaña del candida
 
 ## Enlace
 
-- [jennermejia.com](https://jennermejia.com) uses [SWC](https://swc.rs/) for Fast Refresh
+- [jennermejia.com](https://jennermejia.com)
